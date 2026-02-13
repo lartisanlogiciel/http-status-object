@@ -9,6 +9,7 @@ cache:
 test:
   stage: test
   script:
+    - docker compose up composer
     - docker compose up php-cli
 
 deploy:
