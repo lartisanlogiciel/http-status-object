@@ -1,0 +1,43 @@
+{
+  "name": "frameworks/http-status-object",
+  "description": "Object oriented http status codes",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": ["http", "status", "code", "object"],
+  "homepage": "https://www.lartisanlogiciel.com/bibliothèques/http-status-object",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rémi",
+      "email": "contact@lartisanlogiciel.com",
+      "homepage": "https://www.lartisanlogiciel.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "contact@lartisanlogiciel.com"
+  },
+
+  "minimum-stability": "stable",
+
+  "autoload": {
+    "psr-4": {
+      "HttpStatusObject\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "HttpStatusObjectTests\\": "tests/"
+    }
+  },
+
+  "require": {
+    "php": ">=7.4"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+
+}

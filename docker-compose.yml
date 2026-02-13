@@ -1,0 +1,15 @@
+services:
+
+  php-cli: # Run tests
+    image: php:7.4-cli
+    command: php vendor/phpunit/phpunit/phpunit tests/HttpStatusCollectionTest.php
+    working_dir: /usr/src/application
+    volumes:
+      - .:/usr/src/application
+
+  composer: # Install dependencies
+    image: composer/composer:latest
+    volumes:
+      - ".:/composer"
+    working_dir: /composer
+    command: install
