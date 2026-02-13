@@ -2,6 +2,10 @@ stages:
   - test
   - deploy
 
+cache:
+  paths:
+    - vendor/
+
 test:
   stage: test
   script:
