@@ -5,7 +5,7 @@ stages:
 test:
   stage: test
   script:
-    - docker compose up -d php-cli
+    - docker compose up php-cli
 
 deploy:
   stage: deploy
