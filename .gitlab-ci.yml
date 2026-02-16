@@ -10,7 +10,7 @@ test:
   stage: test
   script:
     - ls -latr
-    - docker compose run --rm composer ls -latr
+    - docker compose run -v ./:/composer --rm composer ls -latr
 #    - docker compose up composer
 #    - docker compose up php-cli
 
