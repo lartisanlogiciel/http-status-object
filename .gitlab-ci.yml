@@ -9,8 +9,9 @@ cache:
 test:
   stage: test
   script:
+    - pwd
     - ls -latr
-    - docker compose run -v ./:/composer --rm composer ls -latr
+    - docker compose run -v ./:/composer -w /composer --rm composer ls -latr
 #    - docker compose up composer
 #    - docker compose up php-cli
 
