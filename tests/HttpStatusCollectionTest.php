@@ -1,6 +1,6 @@
 <?php
 
-namespace HttpStatusObjectTests\tests;
+namespace HttpStatusObjectTests;
 
 use HttpStatusObject\HttpStatusCollection;
 use HttpStatusObject\Implementations\ClientErrorsHttpStatus;

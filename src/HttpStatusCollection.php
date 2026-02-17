@@ -22,9 +22,11 @@ class HttpStatusCollection
      */
     public static function GetByStatusCode(int $code): array
     {
-        return array_filter(self::All(), function (AbstractHttpStatus $item) use ($code) {
-            return $item->code === $code;
-        });
+        return array_values(
+            array_filter(self::All(), function (AbstractHttpStatus $item) use ($code) {
+                return $item->code === $code;
+            })
+        );
     }
 
     /**
@@ -33,7 +35,7 @@ class HttpStatusCollection
      */
     public static function GetFirstByStatusCode(int $code): ?AbstractHttpStatus
     {
-        $statusCodeList = array_values(self::GetByStatusCode($code));
+        $statusCodeList = self::GetByStatusCode($code);
         return $statusCodeList[0] ?? null;
     }
 
