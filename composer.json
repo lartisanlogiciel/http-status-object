@@ -3,8 +3,8 @@
   "description": "Object oriented http status codes",
   "version": "1.0.0",
   "type": "library",
-  "keywords": ["http", "status", "code", "object"],
-  "homepage": "https://www.lartisanlogiciel.com/bibliothèques/http-status-object",
+  "keywords": ["http", "status", "object"],
+  "homepage": "https://github.com/lartisanlogiciel/http-status-object",
   "license": "MIT",
   "authors": [
     {
