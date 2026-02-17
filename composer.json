@@ -1,5 +1,5 @@
 {
-  "name": "frameworks/http-status-object",
+  "name": "lartisanlogiciel/http-status-object",
   "description": "Object oriented http status codes",
   "version": "1.0.0",
   "type": "library",
