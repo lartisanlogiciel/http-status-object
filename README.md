@@ -12,8 +12,8 @@ composer require
 
 ### Réponse de votre API
 
-Retournez le code http corespondant à la situation.  
-Exemple fait avec le framework slim
+Retournez le code http correspondant à la situation.  
+Exemple fait avec le framework Slim
 
 ```php
 
@@ -21,7 +21,7 @@ Exemple fait avec le framework slim
 
 ### Réponse d'un appel à un autre service
 
-Interpréter les status de réponse de manière standardisé.  
+Interpréter les statuts de réponse de manière standardisée.  
 Exemple fait avec curl
 
 ```php
@@ -30,8 +30,8 @@ Exemple fait avec curl
 
 ### Création de vos status http personalisé
 
-Créez vos codes http personnaliser pour standardiser la communication entre les services.  
-Exemple d'une réponse personnalisé
+Créez vos codes http personnalisés pour standardiser la communication entre les services.  
+Exemple d'une réponse personnalisée
 
 ```php
 
