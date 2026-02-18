@@ -48,7 +48,7 @@ Interprétez les statuts de réponse de manière standardisée.
 ```php
 $curl_handle = curl_init();
 curl_setopt($curl_handle, CURLOPT_RETURNTRANSFER, 1);
-curl_setopt($curl_handle, CURLOPT_URL, "http://my-awsome-api.virt");
+curl_setopt($curl_handle, CURLOPT_URL, "http://my-awesome-api.virt");
 curl_setopt($curl_handle, CURLOPT_CUSTOMREQUEST, 'GET');
 curl_exec($curl_handle);
 
@@ -93,4 +93,4 @@ class CustomHttpStatus extends AbstractHttpStatus
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
 ## Questions/Retours
-Envoyer un email à: contact@lartisanlogiciel.com
+Envoyez un email à: contact@lartisanlogiciel.com
